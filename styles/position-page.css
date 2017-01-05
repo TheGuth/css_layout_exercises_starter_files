@@ -1,1 +1,55 @@
 
+nav {
+	padding: 10px 0 10px 120px;
+	background: gray;
+	position: fixed;
+	width: 100%;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav li::after {
+	content: "|";
+	padding-left: 5px;
+}
+
+nav img {
+	position: absolute;
+	max-width: 50px;
+	border-radius: 100%;
+	border: 1px solid black;
+	left: 60px;
+}
+
+body {
+	background: url(../images/outerspace_landscape.jpeg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+.dotted-box {
+	width: 600px;
+	height: 300px;
+	border: 10px green dotted;
+	position: absolute;
+	top: 30%;
+	left: 30%;
+}
+
+.dotted-box img {
+	width: 200px;
+	height: 200px;
+}
+
+.space-cat {
+	position: absolute;
+	top: -100px;
+	left: -100px;
+}
+
+.space-dog {
+	position: absolute;
+	bottom: -100px;
+	right: -100px;
+}
